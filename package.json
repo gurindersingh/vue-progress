@@ -19,7 +19,7 @@
     "lint": "vue-cli-service lint",
     "pack": "vue-cli-service build --target lib --name VueProgress ./src/components/Progress.vue"
   },
-  "main": "./dist/VueProgress.common.js",
+  "main": "src/components/Progress.vue",
   "files": [
     "dist/*.js",
     "dist/*.js.map",
